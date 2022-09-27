@@ -2,7 +2,7 @@
 
 namespace MVC\core;
 
-use Dcblogdev\PdoWrapper\src\Database;
+use Dcblogdev\PdoWrapper\Database;
 
 class Model{
 
@@ -18,7 +18,8 @@ class Model{
           'host' => SERVER,
           'port' => '3306'
       ];
-      return $db = new Database($options);
+        //  print_r($options);
+         return $db = new Database($options);
     
     }
 

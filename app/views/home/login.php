@@ -8,14 +8,14 @@
 </head>
 <body>
   
-<form action="postlogin" method="post">
+<form action="postlogin" method="POST">
 
   <div class="container">
-    <label for="name"><b>name</b></label>
-    <input type="text" placeholder="Enter Username" name="uname">
+    <label for="name"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email">
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw">
+    <input type="password" placeholder="Enter Password" name="password">
 
     <button type="submit">Login</button>
   </div>
