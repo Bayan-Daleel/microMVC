@@ -5,6 +5,7 @@
             "php": ">=8.1.6",
             "another-vendor/package": "1.*"
         },
+
     "autoload": {
     "psr-4":{
      "MVC\\":"app"
@@ -14,5 +15,12 @@
         "dcblogdev/pdo-wrapper": "^2.0",
         "rakit/validation": "^1.4",
         "wixel/gump": "^1.11"
-    }
+    },
+
+    "repositories": [
+        {
+           "type": "composer",
+           "url": "https://github.com/Bayan-Daleel/microMVC" 
+        }
+      ]
 }

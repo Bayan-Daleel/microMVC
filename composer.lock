@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b90c3c280c493b9ccabbda57f867d772",
+    "content-hash": "e94cee89792fc21696f049d654262e9c",
     "packages": [
         {
             "name": "dcblogdev/pdo-wrapper",
