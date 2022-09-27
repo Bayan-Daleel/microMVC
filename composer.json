@@ -1,6 +1,7 @@
 {
         "name": "bayandl/micromvc",
         "description": "micro mvc",
+        "minimum-stability": "stable",
         "require": {
             "php": ">=8.1.6",
             "another-vendor/package": "1.*"
